@@ -1,10 +1,10 @@
 # Add SSH Keys to a server
 With this you can connect to the server with ssh using a nickname and use VSCode Remote-SSH.
 
-## To create and add the SSH key to a server
+## Create and add the SSH key to a server
 
-Run `ls ~/.ssh` to see if you already have ssh keys generated. Probably you have the key files `id_ed25519` and `id_ed25519.pub`, 
-or maybe you don't have any keys or the directory.
+In a terminal run `ls ~/.ssh` to see if you already have ssh keys generated. Probably you have the key files `id_ed25519` and `id_ed25519.pub`, 
+or maybe you don't have any keys or even the directory.
 
 Run the following to create the new keys: 
 ~~~
@@ -20,27 +20,32 @@ Now run the following to copy your public key to the server:
 ~~~
 ssh-copy-id -i ~/.ssh/id_ed25519_duke.pub user@ip.address.of.server # Change the name of the key and the address of the server.
 # When prompted, give the password for the server
+# If it is the first time connecting from that computer to the server, when prompted, type yes
 ~~~
 
-## To register your SSH key at Duke
+Now you can connect to the server with only `ssh user@ip.address.of.server` without the need of passwords or two-factor authentication.
+
+## Register your SSH key at Duke
 Go to this page [https://idms-web-selfservice.oit.duke.edu/advanced](https://idms-web-selfservice.oit.duke.edu/advanced) 
 - Enter your credentials.  
-- Click on something like "Register a new SSH key".  
+- In "Manage Your Public SSH Keys",  click  "See more about SSH keys".  
 - Paste the content of your `.pub` key file into the gray box that appears.  
 - Click "Add Key".  
 
-## To set a nickname for a server
-Make a text file named `config` in the path `~/.ssh/` with this inside:
+## Set up a nickname for a server
+Make a text file named `config` in the path `~/.ssh/` with the following content, changing the appropriate stuff:
 ~~~
 Host *
     AddKeysToAgent yes
     IdentityFile ~/.ssh/id_ed25519_duke #Put the name of your ssh-key files here (without the .pub extension)
     ForwardAgent yes
 
-Host dukeoit
+# This chunk is necessary to do a ProxyJump for Duke servers
+Host dukeoit 
     HostName login.oit.duke.edu
-    User yourNetID
+    User yourNetID # Change to your netID
 
+# This chunk will establish the nickname for the server.
 Host nickName # Here put a nickname to the server
     HostName dcc-login.oit.duke.edu # Here put the correct domain/ip address of your server
     User usernameExample # Here put the username that you have in said server
