@@ -1,17 +1,20 @@
 # Add SSH Keys to a server
-With this you can connect to the server with ssh using a nickname and use VSCode Remotes.
+With this you can connect to the server with ssh using a nickname and use VSCode Remote-SSH.
 
 ## To create and add the SSH key to a server
-Go to your directory `~/.ssh` and see what keys you already have. Probably you have the key files `id_ed25519` and `id_ed25519.pub`.
+
+Run `ls ~/.ssh` to see if you already have ssh keys generated. Probably you have the key files `id_ed25519` and `id_ed25519.pub`, 
+or maybe you don't have any keys or the directory.
 
 Run the following to create the new keys: 
 ~~~
 ssh-keygen -t ed25519 -C "your_email@example.com" # Change the address to your e-mail (leave the quotes there)
 # When it prompts for a key name you can just click Enter to use the default names, but if you already have
 # the key files with the names above they might get overwritten.
-# So you can write a new name for these specific key files, for example: id_ed25519_duke
+# To use a new name for these specific key files (for example: id_ed25519_duke) type /home/username/.ssh/id_ed25519_duke
 ~~~
-Check that the files `id_ed25519_duke` and `id_ed25519_duke.pub` were created in `~/.ssh/` were generated.  
+
+Run `ls ~/.ssh`  again to check that the files `id_ed25519_duke` and `id_ed25519_duke.pub` were created in `~/.ssh/`.  
 
 Now run the following to copy your public key to the server:
 ~~~
