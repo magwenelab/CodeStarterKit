@@ -6,7 +6,8 @@ Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and choos
 
 ## Install VSCode Remote-SSH extensions
 
-Go to the Extensions tab (Ctrl + Shift + X) and search for and install Remote-SSH, Remote Explorer nad Remote-SHH: Editing Configuration Files.
+Go to the Extensions tab in the left panel icons (or Ctrl + Shift + X) and search for and install Remote-SSH. 
+This will automatically install these other extensions: Remote Explorer nad Remote-SHH: Editing Configuration Files.
 
 
 ## Install other VSCode extensions
