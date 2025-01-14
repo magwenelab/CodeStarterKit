@@ -2,7 +2,7 @@
 
 ## Install VSCode
 
-Go to (https://code.visualstudio.com/)[https://code.visualstudio.com/] and choose the appropriate installer for your platform.
+Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and choose the appropriate installer for your platform.
 
 ## Install VSCode Remote-SSH extensions
 
