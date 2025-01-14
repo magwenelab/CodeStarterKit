@@ -33,7 +33,8 @@ Go to this page [https://idms-web-selfservice.oit.duke.edu/advanced](https://idm
 - Click "Add Key".  
 
 ## Set up a nickname for a server
-Make a text file named `config` in the path `~/.ssh/` with the following content, changing the appropriate stuff:
+Make a text file named `config` in the path `~/.ssh/` with the following content, changing the appropriate stuff 
+and remove all the comments:
 ~~~
 Host *
     AddKeysToAgent yes
