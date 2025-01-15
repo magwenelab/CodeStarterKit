@@ -10,4 +10,16 @@ befor setting up VSCode Remote-SSH.
 ## Set up VSCode
 
 Follow the instructions in [vscode_setup.md](https://github.com/magwenelab/CodeStarterKit/blob/main/vscode_setup.md) to 
-add and configure extensions in VSCode, including GitHub, GitHub Copilot and Remote-SSH.
+add and configure extensions in VSCode, including R, GitHub, GitHub Copilot and Remote-SSH.
+
+
+## Efficiency tips and tricks
+
+### Allow the use of up and down arrows to search your history of commands in the terminal
+
+In your user's home directory add a file names `.inputrc` with the following lines:
+```
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+```
+Now, when you start typing a command and use the arrows, you will see the commands you have used that start with the same string.
