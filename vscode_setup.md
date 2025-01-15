@@ -43,4 +43,15 @@ If you
 
 ## Setup R extension
 
+In the terminal of VSCode open R.  
+Install languageserver with `install.packages("languageserver")`.  
+Install httpgd with `install.packages("httpgd")`.   
+In Settings search for R > Plot: Use Httpgd and enable it.  
+
+Now you can open any R script, put your curson in the first line and click Ctrl + Enter, 
+this will automatically open the R terminal and activate the R Workspace in the left panel.  
+
+Try running `plot(cars)` to check if the plots are being shown well in the intercactive R plot panel.  
+
+
 ## Setup GitHub account and Copilot
