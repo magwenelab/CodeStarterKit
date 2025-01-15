@@ -55,3 +55,15 @@ Try running `plot(cars)` to check if the plots are being shown well in the inter
 
 
 ## Setup GitHub account and Copilot
+
+To use Git source control and GitHub Copilot you need to have a GitHub account, and in you account you need to get access to Copilot.  
+GitHub Education will give you free access to Copilot if you are part of an educational institution. To obtain GitHub Education go to 
+[https://education.github.com/discount_requests/application](https://education.github.com/discount_requests/application), log in to your GitHub account 
+and submit an application. For this you will need a proof of enrollment in an instution. If you are staff you can apply as Teacher and use your job offer letter to apply. 
+If you are a Duke student you can use an Enrollment Verification letter found in your Duke Hub. 
+After your application is approved you can follow the next steps.  
+
+In the Extensions explorer install GitHub Copilot and GitHub Copilot Chat. Follow the prompts to add your GitHub account credentials. 
+In the lower right corener the Copilot logo will appear, you can click on it to check the status of Copilot and open the Copilot Chat.  
+
+
