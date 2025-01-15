@@ -1,5 +1,8 @@
 # Add SSH Keys to a server
-With this you can connect to the server with ssh using a nickname and use VSCode Remote-SSH.
+With this, you can connect to the server with ssh using a nickname and use VSCode Remote-SSH.  
+Before following this instruction make sure that you can connect to the server in a terminal using 
+`ssh user@ip.address.of.server`.  
+If you are using Windows with an SSH Client you might need to change the DNS settings.
 
 ## Create and add the SSH key to a server
 
