@@ -15,9 +15,9 @@ add and configure extensions in VSCode, including R, GitHub, GitHub Copilot and 
 
 ## Efficiency tips and tricks
 
-### Allow the use of up and down arrows to search your history of commands in the terminal
+### Enable the use of up and down arrows to search your history of related commands
 
-In your user's home directory add a file names `.inputrc` with the following lines:
+In your user's home directory add a file named `.inputrc` with the following lines:
 ```
 "\e[A": history-search-backward
 "\e[B": history-search-forward
