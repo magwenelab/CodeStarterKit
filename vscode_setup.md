@@ -6,11 +6,17 @@ Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and choos
 
 ## Install VSCode Remote-SSH extensions
 
+Before trying to connect to the server with VSCode, make sure that you can do it in a terminal.  
+
 Go to the Extensions tab in the left panel icons (or Ctrl + Shift + X) and search for and install Remote-SSH. 
 This will automatically install these other extensions: Remote Explorer and Remote-SHH: Editing Configuration Files.
 In the left panel, you can connect to a new remote server using the Remote Explorer icon. If you follow the steps in [ssh_keys.md](https://github.com/magwenelab/CodeStarterKit/blob/main/ssh_keys.md) 
 you will see the nickname of your server as an option, select it and the connection should be automatic.  
 If you didn't set up a nickname you can use the full ssh command and follow the prompts to connect and add your password.  
+
+If you are using Windows, you need to have an SSH Client, if you use Git Bash, it comes with an SSH client. After installing the Remotes-SSH extensions, 
+go to Settings and search for "Remotes SSH Path" and add the path to your SSH Client, for example `C:\Program Files\Git\usr\bin\ssh.exe`.  
+
 
 # In development &darr;
 ## Install other VSCode extensions
