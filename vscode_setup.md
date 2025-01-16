@@ -29,9 +29,13 @@ I recommend the following basic extensions that need no or little configuration:
 
 * Rainbow CSV
 * Edit CSV (Not necessary if you will use Data Wrangler, which is better. See Python extensions below)  
-* Path Intellisense  
 * Preview  
-* SVG Previewer  
+* SVG Previewer
+
+If something doesn't work as expected try opening the extension settings and toggle the parameters.  
+In the bottom left corner, you can find the gear icon and click Settings. In Settings open the list of Extensions to the left 
+or use the search bar.
+
 
 ## Setup Python extensions
 
@@ -48,22 +52,22 @@ Install languageserver with `install.packages("languageserver")`.
 Install httpgd with `install.packages("httpgd")`.   
 In Settings search for R > Plot: Use Httpgd and enable it.  
 
-Now you can open any R script, put your curson in the first line and click Ctrl + Enter, 
+Now you can open any R script, put your cursor in the first line, and click Ctrl + Enter, 
 this will automatically open the R terminal and activate the R Workspace in the left panel.  
 
-Try running `plot(cars)` to check if the plots are being shown well in the intercactive R plot panel.  
+Try running `plot(cars)` to check if the plots are being shown well in the interactive R plot panel.  
 
 
 ## Setup GitHub account and Copilot
 
-To use Git source control and GitHub Copilot you need to have a GitHub account, and in you account you need to get access to Copilot.  
+To use Git source control and GitHub Copilot you need to have a GitHub account, and in your account, you need to get access to Copilot.  
 GitHub Education will give you free access to Copilot if you are part of an educational institution. To obtain GitHub Education go to 
-[https://education.github.com/discount_requests/application](https://education.github.com/discount_requests/application), log in to your GitHub account 
-and submit an application. For this you will need a proof of enrollment in an instution. If you are staff you can apply as Teacher and use your job offer letter to apply. 
+[https://education.github.com/discount_requests/application](https://education.github.com/discount_requests/application), log in to your GitHub account , 
+and submit an application. For this, you will need proof of enrollment in an institution. If you are staff you can apply as a Teacher and use your job offer letter to apply. 
 If you are a Duke student you can use an Enrollment Verification letter found in your Duke Hub. 
 After your application is approved you can follow the next steps.  
 
-In the Extensions explorer install GitHub Copilot and GitHub Copilot Chat. Follow the prompts to add your GitHub account credentials. 
-In the lower right corener the Copilot logo will appear, you can click on it to check the status of Copilot and open the Copilot Chat.  
+In the Extensions Explorer install GitHub Copilot and GitHub Copilot Chat. Follow the prompts to add your GitHub account credentials. 
+In the lower right corner, the Copilot logo will appear, you can click on it to check the status of Copilot and open the Copilot Chat.  
 
 
