@@ -17,8 +17,6 @@ If you didn't set up an alias you can use the full ssh command and follow the pr
 If you are using Windows, you need to have an SSH Client, if you use Git Bash, it comes with an SSH client. After installing the Remotes-SSH extensions, 
 go to Settings and search for "Remotes SSH Path" and add the path to your SSH Client, for example `C:\Program Files\Git\usr\bin\ssh.exe`.  
 
-
-# In development &darr;
 ## Install other VSCode extensions
 
 If you need the extensions on both the local machine and the remote server, you will need to install them twice. 
@@ -39,11 +37,37 @@ or use the search bar.
 
 ## Setup Python extensions
 
-If you 
-* Python (Python Debugger will be installed automatically)
-* Jupyter (
-* Data Wrangler
+To use the Python and Jupyter Notebook extensions you need to have some Python packages installed (ipykernel and pip). 
+I recommend making a Conda environment with all the Python packages you usually need, including the ones mentioned. 
+For example, you can use this `yaml` file to create an environment with `conda env create --file python.yaml`:
+```
+name: python_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ipykernel
+  - pandas
+  - scipy
+  - numpy
+  - matplotlib
+  - pip
+```
 
+With that environment installed go ahead and install the following extensions:
+* Python  
+* Jupyter  
+* Data Wrangler  
+Some other extensions will be also installed automatically.
+
+Now create a notebook file `python_test.ipynb`. When you open it, it should automatically open a notebook view.
+In the upper right corner there will be an icon to select a Kernel. Click on it and select the `python_env` you created 
+Make a basic code to check that all functionalities are working. Create a dataframe and click on the Data Wrangler icon 
+that says View data. Follow the prompts to allow permissions. 
+Data Wrangler will provide an interface to work with tables, which can be dataframes inside a notebook, or table files. 
+When you open a table file from the explorer, click on the Data Wrangler icon in the upper right corner. It will ask you for a
+Python interpreter, you should use the same Python environment as before. 
 
 ## Setup R extension
 
