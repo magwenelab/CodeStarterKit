@@ -62,11 +62,11 @@ With that environment installed go ahead and install the following extensions:
 Some other extensions will be also installed automatically.
 
 Now create a notebook file `python_test.ipynb`. When you open it, it should automatically open a notebook view.
-In the upper right corner there will be an icon to select a Kernel. Click on it and select the `python_env` you created 
+In the upper right corner, there will be an icon to select a Kernel. Click on it and select the `python_env` you created 
 Make a basic code to check that all functionalities are working. Create a dataframe and click on the Data Wrangler icon 
 that says View data. Follow the prompts to allow permissions. 
 Data Wrangler will provide an interface to work with tables, which can be dataframes inside a notebook, or table files. 
-When you open a table file from the explorer, click on the Data Wrangler icon in the upper right corner. It will ask you for a
+When you open a table file from the Explorer, click on the Data Wrangler icon in the upper right corner. It will ask you for a
 Python interpreter, you should use the same Python environment as before. 
 
 ## Setup R extension
