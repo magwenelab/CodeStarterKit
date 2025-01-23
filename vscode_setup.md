@@ -75,6 +75,8 @@ In the terminal of VSCode open R.
 Install languageserver with `install.packages("languageserver")`.  
 Install httpgd with `install.packages("httpgd")`.   
 In Settings search for R > Plot: Use Httpgd and enable it.  
+If you are not using an R installation that is available in the PATH by default (e.g inside a Conda environment), go to 
+Settings and add te path to your R installation to the R > Rterm:<OS> setting.
 
 Now you can open any R script, put your cursor in the first line, and click Ctrl + Enter, 
 this will automatically open the R terminal and activate the R Workspace in the left panel.  
