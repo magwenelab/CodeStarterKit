@@ -57,7 +57,8 @@ or use the search bar.
 
 To use the Python and Jupyter Notebook extensions you need to have some Python packages installed (ipykernel and pip). 
 I recommend making a Conda environment with all the Python packages you usually need, including the ones mentioned. 
-For example, you can use this `yaml` file to create an environment with `conda env create --file python.yaml`:
+For example, you can use this `yaml` file to create an environment. First make the file `python_env.yaml` 
+with the content shown below and the run `conda env create --file python_env.yaml`:
 ```
 name: python_env
 channels:
