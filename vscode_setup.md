@@ -25,6 +25,10 @@ you will see the alias of your server as an option, select it and the connection
 If you didn't set up an alias you can use the full ssh command and follow the prompts to connect and add your password.  
 ![image](https://github.com/user-attachments/assets/f68fc0c7-f23c-4d2f-af87-5cbd5c4519b6)
 
+You can see that you have an activer remote connection in the lower left corner. 
+![image](https://github.com/user-attachments/assets/b0eba5e3-8754-4bad-99c5-290da6c98f92)
+
+
 If you are using Windows, you need to have an SSH Client, if you use Git Bash, it comes with an SSH client. After installing the Remotes-SSH extensions, 
 go to Settings and search for "Remotes SSH Path" and add the path to your SSH Client, for example `C:\Program Files\Git\usr\bin\ssh.exe`.  
 
@@ -33,6 +37,7 @@ go to Settings and search for "Remotes SSH Path" and add the path to your SSH Cl
 If you need the extensions on both the local machine and the remote server, you will need to install them twice. 
 You need to have the remote connection active to install them remotely.    
 You can search for them in the Extensions Explorer in the left panel.
+![image](https://github.com/user-attachments/assets/a3d2e118-602b-44b3-b6e2-8e83db2c8481)
 
 I recommend the following basic extensions that need no or little configuration:  
 
@@ -44,6 +49,8 @@ I recommend the following basic extensions that need no or little configuration:
 If something doesn't work as expected try opening the extension settings and toggle the parameters.  
 In the bottom left corner, you can find the gear icon and click Settings. In Settings open the list of Extensions to the left 
 or use the search bar.
+
+![image](https://github.com/user-attachments/assets/7bc1c20f-de7c-4eda-816c-dd2ec7435ba4)
 
 
 ## Setup Python extensions
