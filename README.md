@@ -1,5 +1,6 @@
 # CodeStarterKit
-Collection of instructions to configure your computer to make programming projects.
+
+A collection of instructions to configure your computer to make your programming life easier. Aimed at new members of the Magwene lab.
 
 ## Add SSH keys to your servers
 
