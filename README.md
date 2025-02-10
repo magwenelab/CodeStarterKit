@@ -13,6 +13,9 @@ befor setting up VSCode Remote-SSH.
 Follow the instructions in [vscode_setup.md](https://github.com/magwenelab/CodeStarterKit/blob/main/vscode_setup.md) to 
 add and configure extensions in VSCode, including R, GitHub, GitHub Copilot and Remote-SSH.
 
+## Transfer files with Globus
+
+PENDING
 
 ## Efficiency tips and tricks
 
