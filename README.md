@@ -21,9 +21,9 @@ PENDING
 
 Tmux allows you to run commands in a terminal session that you can open (attach) and close (detach) at will. 
 With this, you avoid the risk of your program failing if your remote connection to your server stops, 
-and the need to wait with the terminal open before turning off your computer.
+and the need to wait with the terminal open before turning off your computer.  
 
-https://github.com/tmux/tmux/wiki
+https://github.com/tmux/tmux/wiki  
 https://tmuxcheatsheet.com/
 
 | Command | Description |
@@ -31,7 +31,7 @@ https://tmuxcheatsheet.com/
 | tmux ls | List sessions |
 | tmux new -s mysession | Create a new session with a name |
 | tmux attach -t mysession | Open an existing session |
-| Ctrl + b d | Detach (close) a session |
+| `Ctrl + b` `d` (Ctrl and b at the same time, release them and then d) | Detach (close) a session |
 | tmux kill-ses -t mysession | Kill a session while being detached |
 
 
