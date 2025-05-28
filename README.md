@@ -47,3 +47,12 @@ In your user's home directory add a file named `.inputrc` with the following lin
 "\e[B": history-search-forward
 ```
 Now, when you start typing a command and use the arrows, you will see the commands you have used that start with the same string.
+
+## Literature
+
+* Barrett, D. Efficient Linux at the Command Line.
+* Aho, Kernighan, Weinberger. The AWK Programming Language.
+* Allesina, Wilmes. Computing Skills for Biologists.
+
+Available at Duke's online library: https://library.duke.edu/
+
