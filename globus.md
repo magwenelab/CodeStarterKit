@@ -55,7 +55,24 @@ export PATH="$PATH:~/globusconnectpersonal-3.2.7/"
 
 ## Transfer files between your local collection and the Duke DCC
 
+In your terminal start the collection by running `globusconnectpersonal -start`.
 
+Go to https://www.globus.org/globus-connect-personal and log in with your organization.
+
+Go to the File Manager in the left menu
+<img width="1770" height="520" alt="image" src="https://github.com/user-attachments/assets/6663843b-3fb5-405d-9d16-000bc15e9f8b" />
+
+In the left collection click on search.  
+That will take you to your collections. 
+Select your local collection.
+<img width="1744" height="563" alt="image" src="https://github.com/user-attachments/assets/07bb2997-059c-4bc3-9b92-652ea2fc49b2" />
+
+In the right side click on search.  
+Type Duke DCC to find the Transfer Node and select it.
+<img width="1770" height="311" alt="image" src="https://github.com/user-attachments/assets/90a98381-618c-412b-b267-d13a9e318548" />
+
+In the receiver side navigate to the destination folder.  
+In the sender side navigate to and select te files to transfer and then click Start on the sender side.  
 
 
 
