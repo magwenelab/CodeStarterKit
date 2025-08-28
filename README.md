@@ -14,8 +14,7 @@ Follow the instructions in [vscode_setup.md](https://github.com/magwenelab/CodeS
 add and configure extensions in VSCode, including R, GitHub, GitHub Copilot and Remote-SSH.
 
 ## Transfer files with Globus
-
-PENDING
+Follow the instructions in [globus.md](https://github.com/magwenelab/CodeStarterKit/blob/main/globus.md) to install, set up and use Globus Connect Personal.  
 
 ## Using Tmux
 
