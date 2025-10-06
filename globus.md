@@ -52,6 +52,7 @@ At the end of the file, add these lines:
 # Add globusconnectpersonal to path:
 export PATH="$PATH:~/globusconnectpersonal-3.2.7/"
 ```
+Restart your terminal to make the change effective.
 
 ## Transfer files between your local collection and the Duke DCC
 
