@@ -26,6 +26,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519_duke.pub user@ip.address.of.server # Change the
 # When prompted, give the password for the server
 # If it is the first time connecting from that computer to the server when prompted, type yes
 ~~~
+NOTE: If you are on Windows, you will not be able to use the ssh-copy-id command in Powershell. You can either use the command through Git Bash or manually copy the id to your config file on your remote server.
 
 Now you can connect to the server with only `ssh user@ip.address.of.server` without the need of passwords or two-factor authentication.
 
